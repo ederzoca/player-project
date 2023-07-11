@@ -121,7 +121,6 @@ let musicas = [
       musica.currentTime = newTime;
       progressBall.style.left = `${newProgress * 100}%`;
   
-      // Atualizar o tempo decorrido
       const tempoDecorrido = document.querySelector('.inicio');
       tempoDecorrido.textContent = convercaoMinutos(Math.floor(newTime));
     }
